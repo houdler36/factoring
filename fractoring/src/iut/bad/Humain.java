@@ -20,6 +20,12 @@ public class Humain {
 	public String getAge() {
 		return age;
 	}
+	@Override
+	public String toString() {
+		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", getNom()=" + getNom()
+				+ ", getPrenom()=" + getPrenom() + ", getAge()=" + getAge() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	public void setAge(String age) {
 		this.age = age;
 	}
