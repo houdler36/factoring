@@ -5,6 +5,13 @@ public class Humain {
 	private String nom;
 	private String prenom;
 	private String age;
+	
+	public Humain(String nom, String prenom, String age) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.age = age;
+	}
 	public String getNom() {
 		return nom;
 	}
