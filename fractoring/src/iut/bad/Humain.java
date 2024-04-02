@@ -23,5 +23,7 @@ public class Humain {
 	public void setAge(String age) {
 		this.age = age;
 	}
-	
+	public void details() {
+		System.out.println("Nom : " + nom + "\nPrenom : " + prenom + "\nAge : " + age);
+	}
 }
