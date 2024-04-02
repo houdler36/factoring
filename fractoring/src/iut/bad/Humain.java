@@ -32,4 +32,7 @@ public class Humain {
 	public void details() {
 		System.out.println("Nom : " + nom + "\nPrenom : " + prenom + "\nAge : " + age);
 	}
+	public void ami(Humain h) {
+		System.out.println(this.nom + " "+this.prenom+ " est ami avec " + h.nom+ " "+h.prenom );
+	}
 }
